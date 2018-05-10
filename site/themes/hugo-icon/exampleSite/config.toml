@@ -1,19 +1,19 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.example.com/"
+baseURL = "/"
 languageCode = "en-AU"
-title = "My Awesome Title"
+title = "BG Insights - Data Studio"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Bamby Gassama"
+  description = "Data Visualization Engineer"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  title = "BG Insights"
+  description = "Data Visualization Studio and Analytics"
 
 # Navigation section
 [params.nav]
@@ -211,4 +211,3 @@ title = "My Awesome Title"
   vine = "#"
   linkedin = "#"
   instagram = "#"
-  

@@ -27,11 +27,13 @@ a:hover, a:focus, a:active {
   color: #3da1a7;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif;
   color: #000;
   margin-bottom: 30px;
 }
+
 
 p {
   margin-bottom: 30px;
@@ -84,9 +86,9 @@ p {
 }
 
 .btn-success {
-  background: #58ca7e;
+  background: #449C96;
   color: #fff;
-  border: 2px solid #58ca7e;
+  border: 2px solid #449C96;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background: #45c46f !important;
@@ -94,11 +96,11 @@ p {
 }
 .btn-success.btn-outline {
   background: transparent;
-  color: #58ca7e;
-  border: 2px solid #58ca7e;
+  color: #449C96;
+  border: 2px solid #449C96;
 }
 .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-  background: #58ca7e;
+  background: #449C96;
   color: #fff;
 }
 
@@ -222,7 +224,7 @@ p {
 }
 #fh5co-home .fh5co-copy-inner h1 {
   color: #fff;
-  font-size: 55px;
+  font-size: 80px;
   margin-bottom: 20px;
   line-height: 1.2;
   font-weight: 300;
@@ -435,6 +437,7 @@ p {
 .fh5co-tabs-container .fh5co-tabs.fh5co-two li {
   width: 50%;
 }
+
 .fh5co-tabs-container .fh5co-tabs.fh5co-three li {
   width: 33.33%;
 }
@@ -621,7 +624,7 @@ p {
 }
 #fh5co-services .service .icon i {
   font-size: 40px;
-  color: #57D131;
+  color: #D2BBB3;
 }
 #fh5co-services .service h3 {
   text-align: center;
@@ -717,11 +720,11 @@ p {
   background: #fff;
 }
 #fh5co-team .person img {
-  width: 190px;
+  width: 350px;
   margin: 0 auto 30px auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
+  -ms-border-radius: 50%;*/
   border-radius: 50%;
 }
 #fh5co-team .person h3 {

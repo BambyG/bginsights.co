@@ -6,6 +6,24 @@
 <html>
   <head>
     {{ partial "header.html" . }}
+
+    <!-- Google fonts -->
+    <link lazyload="1" href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800|{{ .Site.Params.font.body }}|{{ .Site.Params.font.heading }}|{{ .Site.Params.font.blockquote }}|{{ .Site.Params.font.nav }}|{{ .Site.Params.font.paragraph }}' rel='stylesheet' type='text/css'>
+
+    <style>
+      body {
+      font-family: '{{ replace .Site.Params.font.body "+" " "}}';}
+
+    h1, #signature {
+     font-family: '{{ replace .Site.Params.font.heading "+" " "}}';}
+
+    blockquote {
+    font-family: '{{ replace .Site.Params.font.blockquote "+" " "}}';}
+    .dropdown a {
+    font-family: '{{ replace .Site.Params.font.nav "+" " "}}'}
+    .post-content p {
+    font-family: '{{ replace .Site.Params.font.paragraph "+" " "}}'}
+    </style>
   </head>
   <body>
 
@@ -13,23 +31,23 @@
     <div class="fh5co-loader"></div>
     <div class="fh5co-page">
       <div id="fh5co-container">
-	
+
 	{{ partial "hero.html" . }}
-	
+
 	{{ partial "nav.html" . }}
 
 	{{ if .Site.Params.mission.enable }}
 	{{ partial "mission.html" . }}
 	{{ end }}
-	
+
 	{{ if .Site.Params.services.enable }}
 	{{ partial "services.html" .}}
 	{{ end }}
-	
+
 	{{ if .Site.Params.work.enable }}
 	{{ partial "gallery.html" .}}
 	{{ end }}
-	
+
 	{{ if .Site.Params.team.enable }}
 	{{ partial "team.html" .}}
 	{{ end }}
@@ -37,15 +55,15 @@
 	{{ if .Site.Params.contact.enable }}
 	{{ partial "contact-form.html" .}}
 	{{ end }}
-	
+
 	{{ if .Site.Params.footer.enable }}
 	{{ partial "footer.html" .}}
 	{{ end }}
-      
+
       </div>
     </div>
-    
+
     {{ partial "js.html" .}}
-    
+
   </body>
 </html>

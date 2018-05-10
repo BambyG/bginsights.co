@@ -1,8 +1,18 @@
+
 # Main config file for icon theme.
 theme = "hugo-icon"
 baseURL = "/"
 languageCode = "en-AU"
-title = "My Awesome Title"
+title = "BG Insights - Data Studio"
+
+[params.font]
+    # Some example fonts: Domine, Raleway, "Gentium Basic", Lato
+
+    body = "Lato"
+    heading = "Pacifico"
+    blockquote = "Gentium Basic"
+    nav = "Domine"
+    paragraph = "Roboto"
 
 # Metadata
 [params]
@@ -12,15 +22,16 @@ title = "My Awesome Title"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  title = "BG Insights"
+  description = "Data Visualization Studio and Analytics"
 
 # Navigation section
 [params.nav]
   mission = "Our Mission"
   services = "Services"
-  team = "The Team"
+  team = "About"
   contact = "Get In Touch"
+  work= "Projects"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
@@ -43,23 +54,23 @@ title = "My Awesome Title"
   [[params.mission.item]]
     weight = 1
     name = "marketing"
-    title = "Marketing"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    title = "1"
+    subtitle = "BG Insights is a Data Studio helping businesses in their entire data process from data collection to visualization in order share its own story."
+    description = "<p>At BG Insights we believe that data is key for any business to grow, by understanding their audiences, environment in order to highlight opportunities!</p><ul class='checked'><li>Looking some extra help to concretize your data projects?</li><li>Curious to know how insightful is your business data?</li></ul><p><a href='#contact' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
     name = "analysis"
-    title = "Resources"
-    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    title = "2"
+    subtitle = "We guess that you are here because:"
+    description = "<ul class='checked'><li>You don’t want to base your business decisions on assumptions anymore.</li><li>You are willing to be more data-driven and would like to know how to measure performance efficiently.</li><li>You are already a data-driven company but need extra help for your data related tasks.</li><li>You would like a nice website because we also offer this service!</li><li>You are just curious, in this case, feel free to send us a message!</li></ul>If the above is correct, you are in the right place!<p></p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 3
     name = "strategy"
-    title = "Strategy"
-    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    title = "3"
+    subtitle = "A Marketing and Business Development background."
+    description = "<p>Having a background in Marketing and experiences working closely with IT departments on various digital projects in industries such as E-commerce, Healthcare, Automotive or Finance with different budget and needs, we would love to hear your story!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
@@ -67,37 +78,37 @@ title = "My Awesome Title"
   video = true
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  description = "Our goal is to use different techniques to bring tangible insights to grow your business!"
 
   [[params.services.item]]
-    icon = "icon-present"
+    icon = "icon-cloud-download"
+    title = "Data Collection"
+    description = "Collecting data from different sources such as websites (scraping) or existing data sets and join sources together to enrich your future analysis."
+
+  [[params.services.item]]
+    icon = "icon-table"
+    title = "Data Cleaning"
+    description = "Good insights come from good data. We can help you with checking anomalies, structuring and tidying your data to make it ready for analysis or modelling!"
+
+  [[params.services.item]]
+    icon = "icon-bar-chart"
+    title = "Data Analysis"
+    description = "Are you wondering if your data can teach you something new about your business? From detailed EDA’s to A/B tests, we prefer to let the data telling us the truth!"
+
+  [[params.services.item]]
+    icon = "icon-line-chart"
+    title = "Machine Learning"
+    description = "We use custom models to predict events. From classification to regression models, we also use machine Learning to cluster your data in order to facilitate its analysis."
+
+  [[params.services.item]]
+    icon = "icon-pie-chart"
+    title = "Data Visualization"
+    description = "You already have your data in the desired format and now need to visualize it to share clear insights with your stakeholders. We create single visuals or custom dashboards."
+
+  [[params.services.item]]
+    icon = "icon-laptop"
     title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = "We are also skilled to create websites. Using CSS and HTML allow us to develop customized Wordpress websites for freelancers, small and medium size companies."
 
 # Work section
 [params.work]
@@ -146,42 +157,37 @@ title = "My Awesome Title"
 # Team section
 [params.team]
   enable = true
-  title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Meet Bamby"
+  description = "You might wonder:  Who is behind BG Insights? Well, it’s me Bamby, Data Analyst and Data Visualization Engineer, nice to meet you!"
 
   [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
+    name = "Bamby"
+    position = "Data Analyst and Data Visualization Engineer"
+    description = "<p>I am from Paris but also lived in Manchester, London and currently based in Berlin.</p><p>I decided to create BG Insights after noticing the lack of use of data to provide customers with great experiences online or offline.</p><p>The first time I got amazed by a data-driven campaign was back in 2015 when I was living in London. Still at work and about to leave to get ready for my next day trip to Scotland when suddenly I got an email from Trainline (train booking website) wishing me a good trip! That was nice, but wait that wasn’t the only content of the email, they also knew the weather during my stay in Scotland, shared it with me and advised me to bring a raincoat and an umbrella. A simple content you would tell me, indeed, but good enough to make me smile and remember the brand today.</p><p>On top of that data-driven mindset, I decided to learn programming to make the full use of the technologies available today to provide customers with experiences they actually deserve. It all started with an interest in Frontend Development but I ended up loving Python to work with data!</p><p>Today I am using Python, Pandas, Matplotlib, Scikit-Learn, Plotly, Tableau, SQL, HTML, CSS, and others tools to collect, clean, analysis and visualize data because I believe it’s the less risky way to take business decisions.</p><p id='signature'>Bamby Gassama</p>"
+    img = "images/bamby.JPG"
 
-  [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
 
-  [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+  #[[params.team.item]]
+    #name = "Alice Doe"
+    #position = "Chief overlord"
+    #description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    #img = "images/person2.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+  #[[params.team.item]]
+    #name = "John Doe"
+    #position = "Chief haranguer"
+    #description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    #img = "images/person3.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -198,13 +204,14 @@ title = "My Awesome Title"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  message = "We are looking forward to hearing about your projects! "
+
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  note = "<p><small>&copy; 2018 | Website designed by BG Insights. All Rights Reserved.</small></p>"
   github = "#"
   twitter = "#"
   facebook = "#"
