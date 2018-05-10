@@ -9,7 +9,7 @@ title = "BG Insights - Data Studio"
     # Some example fonts: Domine, Raleway, "Gentium Basic", Lato
 
     body = "Lato"
-    heading = "Pacifico"
+    heading = "Merienda"
     blockquote = "Gentium Basic"
     nav = "Domine"
     paragraph = "Roboto"
@@ -77,8 +77,8 @@ title = "BG Insights - Data Studio"
   enable = true
   video = true
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Our Services"
-  description = "Our goal is to use different techniques to bring tangible insights to grow your business!"
+  title = "Services"
+  description = "<blockquote>“Torture the data, and it will confess to anything” - Ronald Coase<blockquote>"
 
   [[params.services.item]]
     icon = "icon-cloud-download"
