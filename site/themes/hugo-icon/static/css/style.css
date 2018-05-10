@@ -346,7 +346,7 @@ p {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
-  background: #E8ECF1;
+  background: #cccccc /*E8ECF1*/;
   width: 100%;
 }
 #fh5co-about .fh5co-2col {
@@ -655,7 +655,7 @@ p {
   left: 0;
   top: .15em;
   font-size: 23px;
-  color: #57D131;
+  color: #d2bbb3;
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -720,7 +720,7 @@ p {
   background: #fff;
 }
 #fh5co-team .person img {
-  width: 350px;
+  width: 300px;
   margin: 0 auto 30px auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

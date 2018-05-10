@@ -27,7 +27,7 @@ title = "BG Insights - Data Studio"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
+  mission = "Missions"
   services = "Services"
   team = "About"
   contact = "Get In Touch"
@@ -43,34 +43,34 @@ title = "BG Insights - Data Studio"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/img_3.jpg"
+      img = "images/VG6.png"
     [[params.mission.images.list]]
-      img = "images/img_2.jpg"
+      img = "images/box.png"
     [[params.mission.images.list]]
-      img = "images/img_1.jpg"
+      img = "images/GG.png"
     [[params.mission.images.list]]
-      img = "images/img_4.jpg"
+      img = "images/VG4.png"
 
   [[params.mission.item]]
     weight = 1
     name = "marketing"
-    title = "1"
+    title = "Ours"
     subtitle = "BG Insights is a Data Studio helping businesses in their entire data process from data collection to visualization in order share its own story."
     description = "<p>At BG Insights we believe that data is key for any business to grow, by understanding their audiences, environment in order to highlight opportunities!</p><ul class='checked'><li>Looking some extra help to concretize your data projects?</li><li>Curious to know how insightful is your business data?</li></ul><p><a href='#contact' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
     name = "analysis"
-    title = "2"
+    title = "Yours"
     subtitle = "We guess that you are here because:"
     description = "<ul class='checked'><li>You don’t want to base your business decisions on assumptions anymore.</li><li>You are willing to be more data-driven and would like to know how to measure performance efficiently.</li><li>You are already a data-driven company but need extra help for your data related tasks.</li><li>You would like a nice website because we also offer this service!</li><li>You are just curious, in this case, feel free to send us a message!</li></ul>If the above is correct, you are in the right place!<p></p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 3
     name = "strategy"
-    title = "3"
+    title = "Strategy"
     subtitle = "A Marketing and Business Development background."
-    description = "<p>Having a background in Marketing and experiences working closely with IT departments on various digital projects in industries such as E-commerce, Healthcare, Automotive or Finance with different budget and needs, we would love to hear your story!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Having a background in Marketing and experiences working closely with IT departments on various digital projects in industries such as E-commerce, Healthcare, Automotive or Finance with different budget and needs, we would love to hear your story!</p><ul class='checked'><li>Python, Pandas, Numpy, Scipy</li><li>Plotly, Tableau, Seaborn</li><li>Excel, HTML, CSS</li></ul><p><a href='#contact' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
@@ -117,7 +117,7 @@ title = "BG Insights - Data Studio"
   [[params.work.item]]
     title = "Consectetur adipisicing"
     subtitle = "Web Design"
-    img = "images/img_1.jpg"
+    img = "images/test.jpg"
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
