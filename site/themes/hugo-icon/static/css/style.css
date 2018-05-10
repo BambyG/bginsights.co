@@ -699,7 +699,8 @@ p {
 #fh5co-team {
   clear: both;
   padding: 7em 0;
-  background: #E8ECF1;
+  background: #e4e4e4;
+
 }
 @media screen and (max-width: 768px) {
   #fh5co-team {
@@ -707,7 +708,7 @@ p {
   }
 }
 #fh5co-team .person {
-  padding: 30px;
+  padding: 100px;
   margin-bottom: 30px;
   text-align: center;
   -webkit-transition: 0.5s;
@@ -718,13 +719,14 @@ p {
   -ms-border-radius: 5px;
   border-radius: 5px;
   background: #fff;
+  
 }
 #fh5co-team .person img {
   width: 300px;
   margin: 0 auto 30px auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;*/
+  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 #fh5co-team .person h3 {

@@ -78,7 +78,7 @@ title = "BG Insights - Data Studio"
   video = true
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Services"
-  description = "<blockquote>“Torture the data, and it will confess to anything” - Ronald Coase<blockquote>"
+  description = "<blockquote>“Torture the data, and it will confess to anything” - Ronald Coaseg<blockquote>"
 
   [[params.services.item]]
     icon = "icon-cloud-download"
@@ -158,11 +158,11 @@ title = "BG Insights - Data Studio"
 [params.team]
   enable = true
   title = "Meet Bamby"
-  description = "You might wonder:  Who is behind BG Insights? Well, it’s me Bamby, Data Analyst and Data Visualization Engineer, nice to meet you!"
+  description = "You might wonder:  Who is behind BG Insights? Well, it’s me Bamby, nice to meet you!"
 
   [[params.team.item]]
     name = "Bamby"
-    position = "Data Analyst and Data Visualization Engineer"
+    position = "Data Visualization Engineer and Analyst"
     description = "<p>I am from Paris but also lived in Manchester, London and currently based in Berlin.</p><p>I decided to create BG Insights after noticing the lack of use of data to provide customers with great experiences online or offline.</p><p>The first time I got amazed by a data-driven campaign was back in 2015 when I was living in London. Still at work and about to leave to get ready for my next day trip to Scotland when suddenly I got an email from Trainline (train booking website) wishing me a good trip! That was nice, but wait that wasn’t the only content of the email, they also knew the weather during my stay in Scotland, shared it with me and advised me to bring a raincoat and an umbrella. A simple content you would tell me, indeed, but good enough to make me smile and remember the brand today.</p><p>On top of that data-driven mindset, I decided to learn programming to make the full use of the technologies available today to provide customers with experiences they actually deserve. It all started with an interest in Frontend Development but I ended up loving Python to work with data!</p><p>Today I am using Python, Pandas, Matplotlib, Scikit-Learn, Plotly, Tableau, SQL, HTML, CSS, and others tools to collect, clean, analysis and visualize data because I believe it’s the less risky way to take business decisions.</p><p id='signature'>Bamby Gassama</p>"
     img = "images/bamby.JPG"
 
